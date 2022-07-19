@@ -1,0 +1,22 @@
+.input-field{
+    margin: 24px 0;
+
+}
+
+.input-field label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.input-field input{
+    background-color: #ffff;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.06);
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    /* sem isso ele pega o tamanho de 100% e mais o padding, nao considera o padding parte do tamanho
+    assim, ele determina que o padding+o elemento devem ocupar 100% */
+    box-sizing: border-box;
+}
